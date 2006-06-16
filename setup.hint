@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libX11_6 libxkbfile1
+sdesc: "Xorg XKB keyboard description printer"
+ldesc: "Xorg XKB keyboard description printer"
