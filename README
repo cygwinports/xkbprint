@@ -1,6 +1,6 @@
 xkbprint
 ------------------------------------------
-Xorg XKB keyboard description printer
+X.Org XKB keyboard description printer
 
 Runtime requirements:
   cygwin-1.5.20-1
