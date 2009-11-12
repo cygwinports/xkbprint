@@ -3,57 +3,49 @@ xkbprint
 X.Org XKB keyboard description printer
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libX11_6-1.0.0-2
-  libxkbfile1-1.0.1-1
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libX11_6-1.3.2-1
+  libxkbfile1-1.0.6-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
-  xorg-util-macros-1.0.2-1
+  autoconf2.5-2.63-10
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+  xorg-util-macros-1.3.0-1
 
 Canonical website:
   http://xorg.freedesktop.org/
 
 Canonical download:
-  http://xorg.freedesktop.org/releases/individual/
+  http://xorg.freedesktop.org/releases/individual/app/
 
 -------------------------------------------
 
 Build instructions:
-  unpack xkbprint-1.0.1-X-src.tar.bz2
+  unpack xkbprint-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xkbprint-1.0.1-X.cygport all
+  cygport ./xkbprint-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/xkbprint-1.0.1-X-src.tar.bz2
-  /usr/src/xkbprint-1.0.1-X.tar.bz2
+  /usr/src/xkbprint-1.0.2-X-src.tar.bz2
+  /usr/src/xkbprint-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/xkbprint.exe
-  /usr/share/doc/Cygwin/xkbprint-1.0.1.README
-  /usr/share/doc/xkbprint-1.0.1/COPYING
-  /usr/share/doc/xkbprint-1.0.1/ChangeLog
-  /usr/share/man/man1/xkbprint.1.gz
-
-------------------
-
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump for X11R7.5.
 
 ----- version 1.0.1-1 -----
 Initial Cygwin release of modular X11R7.0.
