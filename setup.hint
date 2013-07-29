@@ -1,4 +1,0 @@
-category: X11
-requires: libX11_6 libxkbfile1
-sdesc: "X.Org XKB keyboard description printer"
-ldesc: "X.Org XKB keyboard description printer"

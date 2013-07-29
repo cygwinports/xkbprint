@@ -1,0 +1,11 @@
+inherit xorg
+
+NAME="xkbprint"
+VERSION=1.0.3
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X keyboard description printer"
+DESCRIPTION="The xkbprint command generates a printable or encapsulated
+PostScript description of the specified XKB keyboard description.  The source
+can be any compiled keymap (.xkm) file that includes a geometry description or
+an X display specification."
